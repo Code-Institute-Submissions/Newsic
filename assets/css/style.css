@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Sen&display=swap:100,200,300,400,500,600,700|Sen:100,200,300,400,500,600,700');
+
+
+
+
+/*--------------------------------------------Colours*/
+
+
+
+.ui-menu-color {
+    background-color: #ff5c5c;
+}
+
+
+
+/*--------------------------------------------Heading*/
+
+
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    
+}
+
+#nav {
+    margin: 0;
+    
+}
+
+.menuitem {
+    height: 120px;
+    width: 650px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 35px;
+}
+
+*, ::after, ::before {
+    box-sizing: content-box;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+.center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+}
