@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Sen&display=swap:100,200,300,400,500,600,700|Sen:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 
 
@@ -18,29 +18,25 @@
 
 
 .list-inline-item:not(:last-child) {
+    padding-left: 450px;
     margin: 0;
 }
 
 .menucontainer {
+    background-color: #ff5c5c;
     font-size: 0;
-}
-
-#nav li {
-    font-size: 14px;
-    padding: 0;
-    
-}
-
-#nav {
     margin: 0;
-    
+    padding: 0;
 }
+
+
 
 .menuitem {
     height: 120px;
-    width: 650px;
+    width: 250px;
     text-align: center;
-    padding: 0;
+    padding-left: 450px;
+    
 }
 
 .menuitem a {
@@ -48,19 +44,22 @@
     text-decoration: none;
     color: #fff;
     height: 120px;
+    font-family: "Source Sans Pro", sans-serif
 }
+
+
 
 
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 30px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     letter-spacing: 2px;
-    margin-top: 35px;
+    margin-top: 0;
 }
 
 *, ::after, ::before {
@@ -72,13 +71,25 @@
     
 }
 
-/*--------------------------------------------Media Queries*/
+/*--------------------------------------------content boxes*/
 
-@media(min-width: 992px) {
-.center-form{
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
+.content-box{
+  border: 3px solid#ff5c5c;
+  width: 600px;
+  height: 400px;
+  margin-top: 70px;
+  margin-left: 15%;
+ 
 }
+
+div a {
+    text-decoration: none;
+    font-family:"Source Sans Pro", sans-serif;
+
+
 }
+
+
+
+
+/*--------------------------------------------Media Queries*/
