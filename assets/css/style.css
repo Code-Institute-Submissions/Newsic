@@ -73,21 +73,39 @@
 
 /*--------------------------------------------content boxes*/
 
-.content-box{
+.news-box1{
   border: 3px solid#ff5c5c;
-  width: 600px;
-  height: 400px;
-  margin-top: 70px;
+  width: 700px;
+  height: 500px;
+  margin-top: 50px;
   margin-left: 15%;
+  float: left;
+  background: url(http://via.placeholder.com/640x360
+);
+
  
 }
+.news-box2{
+  border: 3px solid#ff5c5c;
+  width: 700px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 15%;
+  float: left;
+  background: url(http://via.placeholder.com/640x360);
+}
 
-div a {
-    text-decoration: none;
+.news-text {
     font-family:"Source Sans Pro", sans-serif;
 
+}
+
+.news-box a {
+    color: black;
+    text-decoration: none;
 
 }
+
 
 
 
