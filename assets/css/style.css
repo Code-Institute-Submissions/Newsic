@@ -12,32 +12,26 @@ body {
     background-color: #ED4337;
 }
 
-a{
-    color: rgba(243, 241, 239, 1);
-    text-decoration: none;
-    
-}
-
-a:hover{
-    text-decoration: none;
-    color: rgba(243, 241, 239, 1);
-}
 
 
 
-/*--------------------------------------------Heading*/
+/*--------------------------------------------navbar*/
 
 .list-inline-item:not(:last-child) {
      margin-right: 0;
 }
+
+
 
 .menucontainer {
     background-color:#ED4337;;
     font-size: 0;
     margin: 0;
     padding: 0;
-    border: solid rgba(255, 92, 92, 0.5)
+    
 }
+
+
 
 
 
@@ -92,6 +86,7 @@ a:hover{
 }
 
 
+
 /*--------------------------------------------content boxes*/
 
 .container{
@@ -144,7 +139,7 @@ h3.divLink {
    text-decoration: none;
 }
 
-   div.news-box1,.news-box2,.news-box3:hover {
+   div.news-box1:hover,.news-box2:hover,.news-box3:hover {
    cursor: pointer;
    opacity: .9;
 }
@@ -162,13 +157,21 @@ h3.divLink {
 
 
 
-    
-
-
 .news-text {
     font-family:"Source Sans Pro", sans-serif;
     font-size: 25px;
 
+}
+
+a{
+    color: rgba(243, 241, 239, 1);
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgba(243, 241, 239, 1);
 }
 
 
