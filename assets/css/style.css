@@ -6,87 +6,60 @@
 body {
   background-color: rgba(243, 241, 239, 1)
 }
-
-
 .ui-menu-color {
     background-color: #ED4337;
 }
 
-
-
-
 /*--------------------------------------------navbar*/
 
-.list-inline-item:not(:last-child) {
-     margin-right: 0;
-}
 
-
-
-.menucontainer {
+.menu-container {
     background-color:#ED4337;;
     font-size: 0;
     margin: 0;
     padding: 0;
     
 }
-
-
-
-
-
-.menuitem {
-    height: 70px;
-    width: 250px;
+.menu-item {
+    height: 4.375rem;
+    width: 15.625rem;
     text-align: center;
     padding: 0;
     margin: 0;
     
 }
-
-.menuitem a {
+.menu-item a {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 7.500em;
     font-family: "Source Sans Pro", sans-serif
 }
-
-
-
-
-.menuitem span {
+.menu-item span {
     display: block;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 0.9375rem;
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 0.125em;
     margin-top: 0;
 }
-
 *, ::after, ::before {
     box-sizing: content-box;
 }
-
 .container-fluid{
-    padding-left: 0px;
+    padding-left: 0rem;
     
 }
-
-
 .wrapper{
     position: relative;
-    max-width: 1024px;
+    max-width: 64rem;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
-
-
-
 /*--------------------------------------------content boxes*/
 
 .container{
@@ -94,91 +67,84 @@ body {
     word-wrap: break-word;
     overflow-y: hidden;
 }
-
-
 div.news-box1{
-  width: 674px;
-  height: 520px;
+  width: 42.125rem;
+  height: 32.5rem;
   float: left;
-  background: url(https://picsum.photos/647/520
-);
+  background: url(/assets/images/placeholderimg1.jpg);
 
 }
 
 div.news-box2{
 border: 3px solid transparent;
-  width: 250px;
-  height: 250px;
+  width: 15.625rem;
+  height: 15.625rem;
   float: left;
-  background: url(https://picsum.photos/250/250
-);
+  background: url(/assets/images/placeholderimg2.jpg)
+;
 
 }
-
 div.news-box3{
-  width: 318px;
-  height: 350px;
+  width: 19.875rem;
+  height: 21.875rem;
   float: left;
-  background: url(https://picsum.photos/318/350
-);
+  background: url(/assets/images/placeholderimg3.jpg);
 
 }
-
 .news-box1, .news-box2, .news-box3 {
-    margin-top: 15px;
-    margin-right: 15px;
+    margin-top: 0.9375rem;
+    margin-right: 0.9375rem;
 
-}
-
-h3.divLink {
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-   text-decoration: none;
 }
 
    div.news-box1:hover,.news-box2:hover,.news-box3:hover {
    cursor: pointer;
    opacity: .9;
 }
-
-
 /*--------------------------------------------header and p text*/
-
-
 .header-text{
     font-family:"Source Sans Pro", sans-serif;
-    font-size: 52px;
+    font-size: 3.25rem;
     font-weight: bold;
+    text-align: left;
    
 }
-
-
-
 .news-text {
     font-family:"Source Sans Pro", sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
 
 }
-
 a{
     color: rgba(243, 241, 239, 1);
     text-decoration: none;
-    
+   
 }
-
 a:hover{
     text-decoration: none;
     color: rgba(243, 241, 239, 1);
 }
 
+.event-text{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    color: white;
+}
 
+/*--------------------------------------------event-boxes*/
 
-
-
-
-
-
-/*--------------------------------------------Media Queries*/
+.event-box{
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background: url(/assets/images/placeholderimg4.jpg);
+}
+.event-info{
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(99, 3, 3, 0.3);
+    }
