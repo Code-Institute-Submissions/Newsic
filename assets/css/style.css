@@ -4,7 +4,7 @@
 /*--------------------------------------------Colours*/
 
 body {
-  background-color: rgba(243, 241, 239, 1)
+background: rgba(255, 255, 255, 0.8);
 }
 .ui-menu-color {
     background-color: #ED4337;
@@ -55,18 +55,14 @@ body {
 }
 .wrapper{
     position: relative;
-    max-width: 64rem;
+    width: 64rem;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
 }
 /*--------------------------------------------content boxes*/
 
-.container{
-    height: 100%;
-    word-wrap: break-word;
-    overflow-y: hidden;
-}
+
 div.news-box1{
   width: 42.125rem;
   height: 32.5rem;
@@ -128,23 +124,44 @@ a:hover{
     font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
     color: white;
+    padding: 0;
+    margin: 0;
+    
+}
+p {
+    margin: 0;
 }
 
 /*--------------------------------------------event-boxes*/
 
 .event-box{
-    height: 25%;
-    width: 25%;
-    display: inline-block;
+    height: 5rem;
+    width: 30rem;
+    float: left;
+    clear: both;
     padding: 0;
-    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
     background: url(/assets/images/placeholderimg4.jpg);
 }
 .event-info{
-    height: 25%;
-    width: 25%;
-    display: inline-block;
+    height: 5rem;
+    width: 30rem;
+    float: left;
+    clear: both;
     padding: 0;
     margin: 0;
-    background-color: rgba(99, 3, 3, 0.3);
-    }
+    text-align: center;
+    background-color: rgba(77, 75, 75, 0.1);
+}
+.container{
+    height: 100%;
+    width: 64rem;
+    word-wrap: break-word;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+    
+    
+ 
