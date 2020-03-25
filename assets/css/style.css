@@ -67,7 +67,7 @@ div.news-box1{
   width: 42.125rem;
   height: 32.5rem;
   float: left;
-  background-image: url("/assets/images/placeholder1.jpg/");
+  background-image: url("/assets/images/placeholder1.jpg");
 
 }
 
@@ -76,14 +76,14 @@ border: 3px solid transparent;
   width: 15.625rem;
   height: 15.625rem;
   float: left;
-  background-image: url("/assets/images/placeholder2.jpg/");
+  background-image: url("/assets/images/placeholder2.jpg");
 
 }
 div.news-box3{
   width: 19.875rem;
   height: 21.875rem;
   float: left;
-  background-image: url("/assets/images/placeholder4.jpg/");
+  background-image: url("/assets/images/placeholder4.jpg");
 
 }
 .news-box1, .news-box2, .news-box3 {
