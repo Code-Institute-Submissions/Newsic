@@ -134,32 +134,54 @@ p {
 
 /*--------------------------------------------event-boxes*/
 
-.event-box{
-    height: 5rem;
-    width: 30rem;
-    float: left;
-    clear: both;
-    padding: 0;
-    margin-top: 1rem;
-    text-align: center;
-    background: url(/assets/images/placeholder2.jpg);
+
+
+.event-box {
+  height: 5rem;
+  width: 100%;
+  float: left;
+  clear: both;
+  padding: 0;
+  margin-top: 7rem;
+  text-align: center;
+  background: url(/assets/images/placeholder3.jpg);
 }
-.event-info{
-    height: 5rem;
-    width: 30rem;
-    float: left;
-    clear: both;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    background-color: rgba(77, 75, 75, 0.1);
+
+.event-info {
+  height: 5rem;
+  width: 100%;
+  float: left;
+  clear: both;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: rgba(248,248,255, 0.1);
 }
-.container{
-    height: 100%;
-    width: 64rem;
-    word-wrap: break-word;
-    overflow-y: hidden;
-    padding: 0;
+
+.event-box h3{
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(248,248,255);
+    font-size: 1.8rem;
+    padding-top: 1.2rem;
+}
+
+.event-info p{
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(248,248,255);
+    font-size: 1.2rem;
+}
+
+.container {
+  height: 100%;
+  width: 64rem;
+  word-wrap: break-word;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+.event {
+  display: inline-block;
+  width: 49%;
 }
 
 
