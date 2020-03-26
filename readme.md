@@ -13,4 +13,4 @@ Link to first design in balsamiq (pdf) [Here](milestone1.pdf)
 
 ## Demo link:
 
-https://kris965.github.io/milestoneproject1/
+https://kris965.github.io/Newsic/
