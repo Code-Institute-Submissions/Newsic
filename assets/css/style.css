@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
 
 
 /*--------------------------------------------Colours*/
@@ -12,47 +12,36 @@ background-color: rgba(0,0,0,0.8);
 
 /*--------------------------------------------navbar*/
 
+.navbar-custom{
+    background-color: #c65c5c;
+}
 
-.menu-container {
-    background-color:#c65c5c;
-    font-size: 0;
-    margin: 0;
-    padding: 0;
-    
+.navbar-light .navbar-brand {
+    color: #eef0eb;
 }
-.menu-item {
-    height: 4.375rem;
-    width: 15.625rem;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    
+
+.navbar-light .navbar-nav .nav-link{
+    color: #eef0eb;
+
 }
-.menu-item a {
-    width: 100%;
-    text-decoration: none;
-    color:#eef0eb;
-    height: 7.500em;
-    font-family: "Source Sans Pro", sans-serif
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  font-family: "Sen", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
 }
-.menu-item span {
-    display: block;
-    width: 100%;
-    padding-top: 0.9375rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.875rem;
-    font-weight: 600;
-    letter-spacing: 0.125em;
-    margin-top: 0;
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 2rem;
+  font-family: "Sen", sans-serif;
 }
-*, ::after, ::before {
-    box-sizing: content-box;
+
+.navbar .navbar-brand:hover{
+  color:#eef0eb; 
 }
-.container-fluid{
-    padding-left: 0rem;
-    
-}
+
 .wrapper{
     position: relative;
     width: 64rem;
@@ -74,7 +63,6 @@ div.news-box1{
 div.news-box2{
 border: 3px solid transparent;
   width: 15.625rem;
-  height: 15.625rem;
   float: left;
   background-image: url("/assets/images/placeholder2.jpg");
 
@@ -171,13 +159,7 @@ p {
     font-size: 1.2rem;
 }
 
-.container {
-  height: 100%;
-  width: 64rem;
-  word-wrap: break-word;
-  overflow-y: hidden;
-  padding: 0;
-}
+
 
 .event {
   display: inline-block;
