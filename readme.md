@@ -1,6 +1,6 @@
-# Newsic(?)
+# Newsic
 
-Newsic(?) is a website containing everything you need to know from your favorite music genre.
+Newsic is a website containing everything you need to know from your favorite music genre.
 from announcements, interviews, upcoming events, photo's and videos and more.
 
 
