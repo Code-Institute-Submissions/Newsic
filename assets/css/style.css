@@ -67,7 +67,7 @@ div.news-box2 {
 
 div.news-box3 {
 	height: 21.875rem;
-	background: url(./assets/images/placeholder4.jpg);
+	background: url("/assets/images/placeholder4.jpg");
     background-size: cover;
     
 }
