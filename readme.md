@@ -96,6 +96,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+I took inspiration from AD 
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
