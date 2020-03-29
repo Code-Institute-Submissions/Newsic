@@ -84,7 +84,7 @@ GitHub Pages is used for the deployement of this project following this process.
 3. On GitHub go to the repository settings and scroll down to the GitHub pages section.
 4. Select the source (master-branch).
 
-[Deployed version link]: (https://kris965.github.io/Newsic/)
+[Link to deployed version](https://kris965.github.io/Newsic/)
 
 
 
