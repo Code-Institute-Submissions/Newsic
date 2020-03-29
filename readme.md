@@ -9,8 +9,8 @@ Newsic also contains a Media pages showing the latest photo's from artists, even
 
 ### User Stories
 
-[Link to  user stories](https://github.com/kris965/milestoneproject1/issues/1)
-[Link to wireframe balsamiq](./milestone1.pdf) (use ctr left-click)
+- [Link to  user stories](https://github.com/kris965/milestoneproject1/issues/1)
+- [Link to wireframe balsamiq](./milestone1.pdf) (use ctr left-click)
 
 ## Features
 
