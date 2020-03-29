@@ -4,13 +4,13 @@
 
 body {
 	background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
-html{
- height: 100%;
- width: 100%;
+html {
+	height: 100%;
+	width: 100%;
 }
 
 .ui-menu-color {
@@ -47,42 +47,54 @@ html{
 	color: #eef0eb;
 }
 
-/*--------------------------------------------news boxes*/
 
+/*--------------------------------------------news boxes*/
 
 div.news-box1 {
 	height: 32.5rem;
-	background-image: url("../images/placeholder1.jpg");
-    background-size: cover;
+	background-image: url("../images/placeholder10.jpg");
+	background-size: cover;
     
 }
 
 div.news-box2 {
 	height: 32.5rem;
-	background-image: url("../images/placeholder2.jpg");
-    background-size: cover;
-   
-    
+	background-image: url("../images/placeholder6.jpg");
+	background-size: cover;
 }
 
 div.news-box3 {
 	height: 21.875rem;
-	background-image: url("../images/placeholder4.jpg");
-    background-size: cover;
-    
+	background-image: url("../images/placeholder7.jpg");
+	background-size: cover;
+}
+
+div.news-box4 {
+	height: 21.875rem;
+	background-image: url("../images/placeholder8.jpg");
+	background-size: cover;
+}
+
+div.news-box5 {
+	height: 21.875rem;
+	background-image: url("../images/placeholder9.jpg");
+	background-size: cover;
 }
 
 .news-box1,
 .news-box2,
-.news-box3 {
+.news-box3,
+.news-box4,
+.news-box5 {
 	margin-top: 0.9375rem;
-    margin-right: 0.9375rem;
-    
+	margin-right: 0.9375rem;
 }
 
 div.news-box1:hover,
 .news-box2:hover,
-.news-box3:hover {
+.news-box3:hover,
+.news-box4:hover,
+.news-box5:hover {
 	cursor: pointer;
 	opacity: .9;
 }
@@ -93,10 +105,10 @@ div.news-box1:hover,
 .news-text {
 	font-size: 3.5rem;
 	font-family: "Sen", sans-serif;
-	color: #eef0eb;
-    text-transform: capitalize;
-    text-overflow: ellipsis;
-    word-break: break-all;
+	color: white;
+	text-transform: capitalize;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
 }
 
 a {
@@ -109,90 +121,101 @@ a:hover {
 	color: rgba(248, 248, 255, 1);
 }
 
+
 /*--------------------------------------------event-boxes*/
 
-.event-box1, .event-box2,
-.event-box3, .event-box4,
-.event-box5, .event-box6,
-.event-box7, .event-box8,
-.event-box9, .event-box10 {
-height: 5rem;
-text-align: center;
-margin: 0.9375rem 0.9375rem 0 0.9375rem;
-background: url("../images/placeholder3.jpg");
-background-size: cover;
-font-family: "Sen", sans-serif;
-font-size: 2.5rem;
-color: rgb(248, 248, 255);
-text-transform: capitalize;
-overflow: hidden;
-overflow-wrap: break-word;
-
+.event-box1,
+.event-box2,
+.event-box3,
+.event-box4,
+.event-box5,
+.event-box6,
+.event-box7,
+.event-box8,
+.event-box9,
+.event-box10 {
+	height: 5rem;
+	text-align: center;
+	margin: 0.9375rem 0.9375rem 0 0.9375rem;
+	background: url("../images/placeholder3.jpg");
+	background-size: cover;
+	font-family: "Sen", sans-serif;
+	font-size: 2.5rem;
+	color: rgb(248, 248, 255);
+	text-transform: capitalize;
+	overflow: hidden;
+	overflow-wrap: break-word;
 }
 
-.event-box1{
-background-image: url("../images/placeholder1.jpg");
-background-size: cover;
+.event-box1 {
+	background-image: url("../images/placeholder11.jpg");
+	background-size: cover;
 }
-.event-box2{
-background-image: url("../images/placeholder2.jpg");
-background-size: cover;
+
+.event-box2 {
+	background-image: url("../images/placeholder6.jpg");
+	background-size: cover;
 }
-.event-box3{
-background-image: url("../images/placeholder3.jpg");
-background-size: cover;
+
+.event-box3 {
+	background-image: url("../images/placeholder7.jpg");
+	background-size: cover;
 }
-.event-box4{
-background-image: url("../images/placeholder4.jpg");
-background-size: cover;
+
+.event-box4 {
+	background-image: url("../images/placeholder8.jpg");
+	background-size: cover;
 }
-.event-box5{
-background-image: url("../images/placeholder1.jpg");
-background-size: cover;
+
+.event-box5 {
+	background-image: url("../images/placeholder9.jpg");
+	background-size: cover;
 }
-.event-box6{
-background-image: url("../images/placeholder2.jpg");
-background-size: cover;
+
+.event-box6 {
+	background-image: url("../images/placeholder10.jpg");
+	background-size: cover;
 }
-.event-box7{
-background-image: url("../images/placeholder3.jpg");
-background-size: cover;
+
+.event-box7 {
+	background-image: url("../images/placeholder11.jpg");
+	background-size: cover;
 }
-.event-box8{
-background-image: url("../images/placeholder4.jpg");
-background-size: cover;
+
+.event-box8 {
+	background-image: url("../images/placeholder12.jpg");
+	background-size: cover;
 }
-.event-box9{
-background-image: url("../images/placeholder1.jpg");
-background-size: cover;
+
+.event-box9 {
+	background-image: url("../images/placeholder13.jpg");
+	background-size: cover;
 }
-.event-box10{
-background-image: url("../images/placeholder2.jpg");
-background-size: cover;
+
+.event-box10 {
+	background-image: url("../images/placeholder6.jpg");
+	background-size: cover;
 }
 
 .event-info {
 	height: 5rem;
 	text-align: center;
-    margin: 0rem 0.9375rem 0 0.9375rem;
-	background-color:  rgba(238,240,235,1);
-    background-size: cover;
-    font-family: "Sen", sans-serif;
-    font-size: 1.5rem;
+	margin: 0rem 0.9375rem 0 0.9375rem;
+	background-color: rgba(238, 240, 235, 1);
+	background-size: cover;
+	font-family: "Sen", sans-serif;
+	font-size: 1.5rem;
 }
 
 .event-text {
 	font-family: "Sen", sans-serif;
 	font-weight: bold;
-    font-size: 1rem;
+	font-size: 1rem;
 	color: rgb(248, 248, 255);
 	padding: 0;
 	margin: 0;
+    overflow: auto;
 }
-
-
-
-
 
 
 /*------------------------------------------------Gallery*/
@@ -202,14 +225,13 @@ background-size: cover;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 0 0.25rem;
-    
 }
 
 .column {
 	flex: 25%;
 	max-width: 100%;
 	padding: 0 0.25rem;
-    margin-top: 0.25rem;
+	margin-top: 0.25rem;
 }
 
 .column img {
@@ -217,8 +239,6 @@ background-size: cover;
 	vertical-align: middle;
 	width: 100%;
 }
-
-
 
 
 /*------------------------------------------------Media Querries*/
@@ -235,21 +255,27 @@ background-size: cover;
 		flex: 100%;
 		max-width: 100%;
 	}
-    
-}
-@media (max-width: 978px) {
-    .container{
-        padding: 0;
-        overflow-x: hidden;
-    }
-}
-@media screen and (max-width: 667px) {
-  div.event-box1, .event-box2,
-.event-box3, .event-box4,
-.event-box5, .event-box6,
-.event-box7, .event-box8,
-.event-box9, .event-box10, .event-info {
-    font-size: 1.2rem;
-  }
 }
 
+@media (max-width: 978px) {
+	.container {
+		padding: 0;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	div.event-box1,
+	.event-box2,
+	.event-box3,
+	.event-box4,
+	.event-box5,
+	.event-box6,
+	.event-box7,
+	.event-box8,
+	.event-box9,
+	.event-box10,
+	.event-info {
+		font-size: 1.2rem;
+	}
+}
